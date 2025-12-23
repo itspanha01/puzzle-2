@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Rainyhearts;
+    src: url(Fonts/rainyhearts.ttf);
+}
+
+@font-face {
+    font-family: Upheavy;
+    src: url(Fonts/upheavtt.ttf);
+}
+
+
+body {
+    background-color: rgb(24, 23, 23);
+}
+
+#caution-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100%;
+}
+.caution-container {
+    display: flex;
+}
+.cat-container {
+    display: flex;
+}
+
+#cat-gif {
+    margin-top: 10px;
+    width: 200px;
+    height: 150%;
+}
+
+#Download-icon {
+    display: flex;
+    width: 50px;
+    height: 100%;
+}
+
+#download-button {
+    display: flex;
+    padding: 10px;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: rainyhearts;
+    font-size: 20px;
+    background-color: #adff2f;
+    border: transparent;
+    width: 150px;
+}
+
+.file-desc {
+    font-size: small;
+}
+
+.title-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Upheavy;
+    color: #d8dcd2;
+    font-size: 50px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reward {
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    box-shadow: #adff2f;
+    width: 200px;
+    font-size: 18px;
+}
+
+.subtitle {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: rainyhearts;
+    font-size: 25px;
+}
+
+.subtitle-instructions {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: rainyhearts;
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#yes-button, #next-button {
+    padding: 15px;
+    margin: 10px;
+    background-color: #adff2f;
+    border: transparent;
+    font-family: rainyhearts;
+    font-size: 30px;
+    width: 90px;
+    cursor: pointer;
+}
+
+#no-button {
+    padding: 15px;
+    margin: 10px;
+    background-color: #ff4b2f;
+    border: transparent;
+    font-family: rainyhearts;
+    font-size: 30px;
+    width: 90px;
+}
+
+#no-button:hover {
+    transform: translateX(200px);
+    box-shadow: 0px 5px 30px 5px #b7271a;
+}
+
+#no-button:active {
+    transform: translateY(4px);
+}
+
+#yes-button:active, #next-button:active, #download-button:active {
+    transform: translateY(4px);
+}
+
+#yes-button:hover, #next-button:hover, #download-button:hover {
+    box-shadow: 0px 5px 30px 5px #78b71a;
+}
+
+@keyframes ease {
+    
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flag {
+    margin: 10px;
+    width: 90px;
+    height: 100%;
+}
+
+#python {
+    margin: 10px;
+    width: 110px;
+    height: 100%;
+}
+
+.footer {
+    font-family: rainyhearts;
+    font-size: 10px;
+    color: azure;
+}
